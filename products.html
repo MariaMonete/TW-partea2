@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <title>Products</title>
+</head>
+<div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+    <ul>
+        <li><a href="index.html"> HOME </a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="shoppingcart.html">SHOPPING CART</a></li>
+        <li><a href="testimonies.html"> TESTIMONIES </a></li>
+        <br><br>
+    </ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+<div class="sub-header">
+        <div class="header">
+        <h1 style="color: honeydew;">Upload your art name</h1>
+        <button id="get-button">READ/GET Products</button>
+        <form id="create-form">
+            <input type="text" id="create-input">
+            <button>Create/POST</button>
+        </form>
+        <hr>
+        <table style="color: white;">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>

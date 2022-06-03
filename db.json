@@ -1,0 +1,29 @@
+{
+    "paintings": [
+      {
+        "id": 1,
+        "name": "Vincent van gogh",
+        "img": "https://www.artic.edu/iiif/2/26d3cea8-44c0-bfbd-a91a-19a007517152/full/843,/0/default.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Da Vinci",
+        "img": "https://www.artic.edu/iiif/2/baea7300-2d7c-365d-c8fb-3e19e487cc1d/full/843,/0/default.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Picasso",
+        "img": "https://www.artic.edu/iiif/2/4f7ccf9f-a8ce-2bd8-2d15-a38b2e6caa7a/full/843,/0/default.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Maragliano",
+        "img": "https://www.artic.edu/iiif/2/0b0b5c15-0633-376b-278e-2660f09b582a/full/843,/0/default.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Francois Bucher",
+        "img": "https://www.artic.edu/iiif/2/0a5822b2-8f61-30d1-60ea-2c9ad0a24710/full/843,/0/default.jpg"
+      }
+    ]
+  }

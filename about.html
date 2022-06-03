@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="top">Let's paint! - Online hosting event</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../imag/poze/logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"> HOME </a></li>
+                    <li><a href="#prices"> PRICES </a></li>
+                    <li><a href="#kits">  SHOP NOW </a></li>
+                    <li><a href="#faq">  FAQ </a></li>
+                    <li><a href="about.html">  CONTACT </a></li>
+                    <li><a href="testimonies.html"> TESTIMONIES </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"</i>
+        </nav>
+    <h1>Contact Us</h1>
+    </section>
+
+<!-- ABOUT -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Place your order now and we will take care of everything</h1>
+            <p>Pick a date for your event and we will connect you with a hosts that will meet all your needs. Also, choose your tools and order them(more info below). Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente eum repudiandae quae iure saepe accusantium, iusto in illum error impedit sed natus nesciunt ipsa praesentium amet, possimus facilis non maiores?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae nisi maxime commodi deleniti quis molestiae, ipsum velit ratione, ea natus obcaecati laboriosam ducimus laudantium ad nobis, enim quos eos laborum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias asperiores cupiditate dolores placeat at? Assumenda vero sapiente unde recusandae, dicta rerum! Facere labore quia ratione id fugiat quibusdam, cumque suscipit! </p>
+            <a href="" class="hero-btn blue-btn">ORDER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="../imag/poze/9.jpg">
+        </div>
+    </div>
+</section>
+
+<!-- contact -->
+<!-- <section class="contact">
+    <h4 id="place">Place an Order</h4>
+    <p>You can place an order with us via email: aquart@gmail.com and aquart2020@yahoo.com. In the email you will specify the number<br> of people in your party an the number of kits that you want to purchase, and provide proof of paying(bank transaction and confirmation), and also your adress.<br> If you have any more questions, don't hesitate to contact us on at same email adress. You can also find us on Instagram and Facebook @aquart_official. We are located in London, UK.</p>
+</section> -->
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <h5>Phone Number <br><br>+101234567890 </h5>
+               
+            </div>
+            <div>
+                <h5>Email<br><br>
+                aquart@gmail.com <br>
+                aquart2020@yahoo.com</h5>
+            
+            </div>
+            <div>
+                <h5>BANK INFORMATION <br><br> Bank name:Member Bank <br><br> Cardholder Name:Adonis Bexter <br><br> Bank Account Number:012 345 567 789</h5>
+            </div>
+        </div>
+        
+            <div class="contact-col">
+                <form action="contact-form" method="POST">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter your email" required>
+                    <input type="text" placeholder="Enter the number of people in your party, and the kits" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn blue-btn">Send Message</button>
+                </form>
+            </div>
+
+
+    </div>
+
+</section>
+
+<!-- js -->
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
